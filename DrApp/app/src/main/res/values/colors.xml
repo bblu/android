@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+	<color name="blue">#0000FF</color> <!--蓝色 -->
+	<color name="darkBlue">#E3A869</color> <!--蓝色 -->
+	<color name="gray">#C0C0C0</color>
+	<color name="blue2">#E3CF57</color><!--tian蓝 -->
+</resources>
