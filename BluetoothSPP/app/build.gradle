@@ -2,11 +2,11 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 28
-    buildToolsVersion "28.0.3"
+    buildToolsVersion '30.0.3'
     defaultConfig {
         applicationId "cn.jingedawang.bluetoothtest"
         minSdkVersion 17
-        targetSdkVersion 28
+        targetSdkVersion 30
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
@@ -24,5 +24,7 @@ dependencies {
     androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
+    // modbus4j
+    api 'com.github.licheedev:modbus4j:v3.0.6-alpha1'
     testImplementation 'junit:junit:4.12'
 }
